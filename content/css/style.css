@@ -2,3 +2,35 @@
 	border-top: thin solid black;
 	padding-top: 1ex;
 }
+
+#header {
+	background-color: #ee0000;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #4078c0;
+}
+
+.menu li {
+	display: inline;
+	border-left: thin solid white;
+	padding: 5px;
+}
+
+.menu li:first-child {
+	border: none;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.current a {
+  color: black;
+}
