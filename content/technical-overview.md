@@ -6,6 +6,13 @@ summary: >-
   A technical overview of the Airdancer project.
 ---
 
+The Airdancer project is built on top of several components:
+
+- [Hardware](#hardware) in the form of Tasmota-enabled smart switches,
+- An [MQTT service](#mqtt-service) that allows the switches to exchange messages with the slack application,
+- A [Slack application](#slack-application) that provides a set of custom commands to a slack server, and 
+- An [OpenShift deployment](#openshift-deployment) that hosts the slack application.
+
 ## Hardware
 
 The Airdancer devices are built on top of Sonoff [S31] switches running [Tasmota] firmware.
