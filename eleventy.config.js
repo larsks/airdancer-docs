@@ -4,6 +4,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("content/CNAME");
 	eleventyConfig.addPassthroughCopy("content/img/");
 	eleventyConfig.addPassthroughCopy("content/css/");
+	eleventyConfig.addPassthroughCopy("content/assets/");
 	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 	eleventyConfig.addPlugin(IdAttributePlugin);
 
