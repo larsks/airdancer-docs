@@ -55,7 +55,7 @@ All other commands are accessed via the `/dancer` command:
 The following commands are available:
 
 - `register <switch_id>` -- Register a switch to your account. If you have a [Tasmota] switch that has not been registered to someone else, you can register it to yourself. The `<switch_id>` value is the `topic` value shown in the MQTT configuration screen.
-- `unregister` -- Unregister your switch. It will no longer be assigned to you and can them be registered to someone else.
+- `unregister` -- Unregister your switch. It will no longer be assigned to you and can then be registered to someone else.
 - `bother [--duration <seconds>] <user_or_group>` -- Activate someone's switch; this is the same as the `/bother` command.
 - `set --bother|--no-bother` -- Enable/disable bother notifications.
 - `users [--box] [--short]` -- List all users. Use `--box` to get plain-text table, and `--short` to get even simpler plain-text output.
